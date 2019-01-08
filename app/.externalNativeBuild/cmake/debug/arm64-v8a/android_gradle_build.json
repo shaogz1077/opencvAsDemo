@@ -18,21 +18,21 @@
 			[
 				
 				{
-					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/guangzhen/AppData/Local/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/guangzhen/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\guangzhen\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem C:\\Users\\guangzhen\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem C:/Users/guangzhen/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=C:/Users/guangzhen/AppData/Local/Android/Sdk/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/guangzhen/AppData/Local/Android/Sdk/android-ndk-r16b/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\guangzhen\\AppData\\Local\\Android\\Sdk\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\guangzhen\\AppData\\Local\\Android\\Sdk\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\include -isystem C:\\Users\\guangzhen\\AppData\\Local\\Android\\Sdk\\android-ndk-r16b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/guangzhen/AppData/Local/Android/Sdk/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
 					"src" : "E:/android_workspace/opencvDemoAs/app/src/main/cpp/native-lib.cpp",
 					"workingDirectory" : "E:/android_workspace/opencvDemoAs/app/.externalNativeBuild/cmake/debug/arm64-v8a"
 				}
 			],
 			"output" : "E:/android_workspace/opencvDemoAs/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
-			"toolchain" : "3689355473"
+			"toolchain" : "3703265253"
 		}
 	},
 	"toolchains" : 
 	{
-		"3689355473" : 
+		"3703265253" : 
 		{
-			"cCompilerExecutable" : "C:/Users/guangzhen/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "C:/Users/guangzhen/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "C:/Users/guangzhen/AppData/Local/Android/Sdk/android-ndk-r16b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/guangzhen/AppData/Local/Android/Sdk/android-ndk-r16b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }
